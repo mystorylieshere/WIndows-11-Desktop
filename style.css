@@ -1,0 +1,278 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  background-color: grey;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+video {
+  position: fixed;
+  z-index: -1;
+}
+
+.some {
+  display: flex;
+  justify-content: center;
+}
+
+.startmenu {
+  height: 38vw;
+  position: absolute;
+  bottom: -120vh;
+  background-color: #f6f6f6;
+  width: 35vw;
+  padding: 2vw;
+  padding-bottom: 1vw;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  transition: all 0.7s ease-in-out;
+}
+
+.top {
+  width: 33vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pinned {
+  font-weight: 600;
+  margin-left: 1.5vw;
+}
+
+.icons {
+  position: relative;
+}
+
+.apps {
+  background-color: white;
+  padding: 0 0.2vw 0.2vw 0.2vw;
+  border: 1px solid #e0e0e0;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 3px;
+}
+
+.icons img {
+  width: 2.5vw;
+}
+
+.icon {
+  margin-top: 1vw;
+  padding-top: 0.5vw;
+  padding-bottom: 0.5vw;
+  width: 7vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 11px;
+  font-weight: 500;
+  border-radius: 3px;
+}
+
+.line {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.tips {
+  width: 5.8vw;
+}
+
+.icon:hover {
+  cursor: default;
+  background-color: #cccccc;
+}
+
+.recommendation img {
+  width: 35vw;
+  margin-top: 2vw;
+}
+
+.breakline {
+  width: 100%;
+  height: 0.05vw;
+  background-color: #cccccc;
+}
+
+.account {
+  margin-top: 1vw;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.accountinfo {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.accountinfo img {
+  width: 2vw;
+}
+
+.accountinfo span {
+  margin-left: 0.7vw;
+}
+
+.power {
+  width: 2vw;
+}
+
+.taskbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 5vh;
+  background-color: #f6f6f6;
+  padding-top: 0.5vw;
+  padding-bottom: 0.35vw;
+}
+
+.taskicon img {
+  width: 1.5vw;
+  margin-left: 1.5vw;
+}
+
+.search {
+  transform: rotateY(180deg);
+  width: 3vw;
+}
+
+.search img {
+  transform: rotateY(90deg);
+  width: 3vw;
+}
+
+.taskicon img:hover {
+  transform: scale(1.2);
+}
+
+.search img:hover {
+  transform: scale(1.2) rotateY(90deg);
+}
+
+.rightside img {
+  position: absolute;
+  height: 5vh;
+  right: 0;
+  bottom: 1vh;
+}
+
+.hiddenbox {
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hiddenbox img {
+  padding: relative;
+  z-index: -1;
+  border-radius: 5px;
+  width: 55vw;
+}
+
+.vscodebox {
+  position: absolute;
+  top: 120vh;
+  transition: all 0.7s ease-in-out;
+}
+
+.msedgebox {
+  position: absolute;
+  top: 120vh;
+  transition: all 0.7s ease-in-out;
+}
+
+.msstorebox {
+  position: absolute;
+  top: 120vh;
+  transition: all 0.7s ease-in-out;
+}
+
+img.calc {
+  width: 20vw;
+}
+
+.calcbox {
+  position: absolute;
+  top: 120vh;
+  transition: all 0.7s ease-in-out;
+}
+
+.mailbox {
+  position: absolute;
+  top: 120vh;
+  transition: all 0.7s ease-in-out;
+}
+
+.calbox {
+  position: absolute;
+  top: 120vh;
+  transition: all 0.7s ease-in-out;
+}
+
+.pbox {
+  position: absolute;
+  top: 120vh;
+  transition: all 0.7s ease-in-out;
+}
+
+.setbox {
+  position: absolute;
+  top: 120vh;
+  transition: all 0.7s ease-in-out;
+}
+
+.alarmbox {
+  position: absolute;
+  top: 120vh;
+  transition: all 0.7s ease-in-out;
+}
+
+.notepadbox {
+  position: absolute;
+  top: 120vh;
+  transition: all 0.7s ease-in-out;
+}
+
+.paintbox {
+  position: absolute;
+  top: 120vh;
+  transition: all 0.7s ease-in-out;
+}
+
+.fexpbox {
+  position: absolute;
+  top: 120vh;
+  transition: all 0.7s ease-in-out;
+}
+
+.filmbox {
+  position: absolute;
+  top: 120vh;
+  transition: all 0.7s ease-in-out;
+}
+
+.tipbox {
+  position: absolute;
+  top: 120vh;
+  transition: all 0.7s ease-in-out;
+}
+
+img.tipp {
+  width: 43vw;
+}
