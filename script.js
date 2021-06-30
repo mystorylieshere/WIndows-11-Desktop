@@ -64,7 +64,7 @@ startmenu.addEventListener("click",()=>{
     startmenu.style.top="120vh"
    }
     else{
-        startmenu.style.top="10vh"
+        startmenu.style.top="2vh"
     }
 })
 
